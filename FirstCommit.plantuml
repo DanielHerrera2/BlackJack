@@ -1,0 +1,32 @@
+@startuml FirstCommit
+start
+:BlackJack;
+:Total 21;
+note right: number to win game
+
+if (A+10+J) then (true)
+:bust;
+
+(false) elseif (A+Q+K) then (true)
+:bust;
+(false) elseif (A+K+Q) then (false)
+:bust;
+(false) elseif (K+Q+J) then (bust)
+:bust;
+(false) elseif (5+2+2+A) then (bust)
+:bust;
+note right: You can chose as many cards as you want
+(false) elseif (5+3+3+5+Q) then (false)
+:bust;
+note right: anything higher than 21 is a bust
+
+else (false)
+:deal in ;
+
+if (deal back in)
+
+Endif
+- Deal back in
+
+stop
+@enduml

@@ -1,0 +1,20 @@
+@startuml Usecase
+
+left to right direction
+
+actor player as p
+package Professional{
+    actor dealer as fc
+}
+package BlackJack{
+    usecase "Bust" as UC1
+    usecase "Hit" as UC2
+    usecase "Stand" as UC3
+    usecase "Current Hand" as UC4
+}
+fc --> UC4
+p --> UC1
+p --> UC2
+p --> UC3
+
+@enduml
