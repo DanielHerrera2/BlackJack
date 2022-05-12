@@ -11,7 +11,7 @@ public class Deck {
   }
   // creates a full deck of cards, suit value returns everything like an array :)
   public void createFullDeck(){
-    for(Suite cardSuit : Suite.values()){
+    for(Suit cardSuit : Suit.values()){
       for(Value cardValue : Value.values()) { // then make another card in the whole shbam
         this.cards.add(new Card(cardSuit,cardValue));
       }
@@ -91,13 +91,13 @@ public class Deck {
         case FIVE: totalValue += 5; break;
         case SIX: totalValue += 6; break;
         case SEVEN: totalValue += 7; break;
-        case Eight: totalValue += 8; break;
-        case Nine: totalValue += 9; break;
-        case Ten: totalValue += 10; break;
-        case Jack: totalValue += 10; break;
-        case Queen: totalValue += 10; break;
-        case King: totalValue += 10; break;
-        case Ace: aces += 1; break;
+        case EIGHT: totalValue += 8; break;
+        case NINE: totalValue += 9; break;
+        case TEN: totalValue += 10; break;
+        case JACK: totalValue += 10; break;
+        case QUEEN: totalValue += 10; break;
+        case KING: totalValue += 10; break;
+        case ACE: aces += 1; break;
 
       }
     }
