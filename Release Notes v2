@@ -1,0 +1,16 @@
+# Black jack Release notes version two
+# OverView
+Code has begun to complie with the shuffling and adding enumerators for values and suites. Having troubles on where two incorporate the hit stand or wave or whatever we want to name it.
+Black Jack methods are currently being rewritten over and over to find something that is able to fully complie the code.
+# Issue summary 
+- code wont comple
+- the methods being used arent adding up with others 
+- multiple syntax erros 
+- Find out where abstarct can go
+# Resolution 
+- research more to find better methods
+- rather phone a friend from the class to get their input on the issue
+- go back to the back for refrence 
+# Notes
+upgraded the previous version
+still need to be able to work with github still o the fence on how to completly work it. Code still needs to be fixed with the ongoing compling issues.
