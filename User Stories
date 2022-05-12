@@ -1,0 +1,12 @@
+# Coding game Black Jack
+The card playing game we all know and love but in coding form coded in java for Object Orientation reasons
+> Coding Game Black Jack 3 ( labled that due to the amount of attempts made of making something complie )
+Black Jack where we start the user off with 100 dollars and two cards with a set number of values, 
+> Kings,Queens,Jacks, are valued at 10 points and the other amount of cards are valued by the face value 
+All players(if more than one) are given two cards to begin then are able to chose between two options either a hit or a stand
+> The hit function gives the user another card at random
+While the player is able to get another card, if the amount of points reach over 21 then the player busts and loses the round
+> The stand function lets the player keep what ever hand they have and take the chances of winning or losing
+The objective of the game is to be able to beat the dealers hand 
+If you win you win the round and gain a little bit of money and if you lose you lose your money
+Just like the real game play at your own risk
