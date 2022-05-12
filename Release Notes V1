@@ -1,0 +1,13 @@
+# Black jack Idea
+> idea of the o'l dome 
+Be able to play the orginal game black jack with a set number that could not go over or else you would lose the game. Then to be able to implement the idea
+money to mimic the gambling aspect of the game. Have the card suit mimic the numbers and the faces to be ten and the A to be one or eleven. 
+# Features 
+- able to use the suit from 1 to ten and queen, jack, king as ten then the Ace as 11 or 1
+- Use the gamble feature 
+- figure out how to use inheritance right 
+- have a dealer hand so the player goes against someone 
+- figure out how to use diagrams 
+# Notes
+spilt up the work between two people 
+rewrite the release notes
